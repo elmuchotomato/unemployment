@@ -3,6 +3,8 @@
 Monthly registered unemployment by canton, plus Aussteuerungen (people whose
 ALV entitlement ran out), pulled from SECO and published as a static dashboard.
 
+**Live site:** https://elmuchotomato.github.io/unemployment/
+
     fetch_seco.py  ->  data/labour.json  ->  docs/index.html  (GitHub Pages)
 
 A GitHub Action re-runs the fetcher on the 9th of each month and commits the
